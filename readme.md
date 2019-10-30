@@ -18,7 +18,7 @@ http://localhost:8123/shout/steve-jobs?limit=2
 #Projects files
 1. `app/Http/Controllers/QuotesController.php`
 2. `app/Contracts/QuotesProvider.php`
-3. `app/Adapters/CachingQuotes.php`
+3. `app/Proxies/CachingQuotes.php`
 4. `app/Services/JsonQuotes.php`
 5. `config/app.php`
 

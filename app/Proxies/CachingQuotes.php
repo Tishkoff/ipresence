@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Adapters;
+namespace App\Proxies;
 
 use App\Contracts\QuotesProvider;
 use Cache;
@@ -9,7 +9,7 @@ use Illuminate\Support\Collection;
 
 /**
  * Class CachingQuotes
- * @package App\Adapters
+ * @package App\Proxies
  */
 class CachingQuotes implements QuotesProvider
 {

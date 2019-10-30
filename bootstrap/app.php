@@ -83,7 +83,7 @@ $app->singleton(
 $app->bind(
     'App\Contracts\QuotesProvider',
     function ($app) {
-        return new App\Adapters\CachingQuotes(
+        return new App\Proxies\CachingQuotes(
             new App\Services\JsonQuotes()
         );
     }
