@@ -4,10 +4,12 @@ This implementation is based on Laravel Lumen microframework.
 ## Installation
 Prerequisites:
 * PHP >= 7.2
+* composer installed globally
 
 Steps:
 1. Unzip into some directory
 2. `cd ipresence`
+3. `composer install`
 3. Run built-in php development server `php -S localhost:8123 -t public`
 
 That's it, you can go to the api endpoint:
